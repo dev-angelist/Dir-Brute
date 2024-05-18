@@ -55,6 +55,10 @@ optional arguments:
   --threads THREADS     Number of concurrent threads (default: 5).
   --output OUTPUT       File to save successful results.
 
+### Additional Resources:
+
+- A comprehensive list of directory paths, is just present cloning current repository into path /directories_list
+- For an extensive collection of wordlists, visit [kkrypt0nn/wordlists](https://github.com/kkrypt0nn/wordlists).
 
 ## Contributing
 
