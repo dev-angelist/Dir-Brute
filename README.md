@@ -48,6 +48,7 @@ optional arguments:
                         Custom headers for the requests (e.g., 'User-Agent: custom').
   --threads THREADS     Number of concurrent threads (default: 5).
   --output OUTPUT       File to save successful results.
+```
 
 ### Additional Resources:
 
