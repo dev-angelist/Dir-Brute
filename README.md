@@ -15,7 +15,7 @@ The **dirbrute.py** script is a command-line tool designed to perform directory 
 1. Clone this repository to your local machine:
 
     ```bash
-    git clone https://github.com/dev-angelist/dirbrute.git
+    git clone https://github.com/dev-angelist/Dir-Brute.git
     ```
 
 2. Navigate to the directory:
