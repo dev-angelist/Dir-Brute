@@ -1,4 +1,3 @@
-import requests
 import argparse
 import sys
 import threading
@@ -23,11 +22,11 @@ def request_url(queue, base_url, timeout, success_codes, headers, output_file, p
                 # Store successful results
                 results.append((url, response.status_code))
                 # Display progress with tqdm
-                tqdm.write(f"Found: [{url}] (Status: {response.status_code}) [+]")
+                tqdm.write(f"[+] Found: [{url}] (Status: {response.status_code})")
                 if output_file:
                     # Save results to file if specified
                     with open(output_file, 'a') as f:
-                        f.write(f"[{url}] (Status: {response.status_code}) [+]\n")
+                        f.write(f"[+] [{url}] (Status: {response.status_code})\n")
         except requests.exceptions.RequestException:
             pass  # Ignore all types of request exceptions
         finally:
@@ -81,7 +80,7 @@ def main():
         headers = {}
 
     if args.wordlist:
-        with open(args.wordlist, 'r', encoding='latin-1') as f:
+        with open(args.wordlist, 'r', encoding='utf-8') as f:
             wordlist = [line.strip() for line in f]
     else:
         wordlist = [line.strip() for line in sys.stdin]
