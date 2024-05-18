@@ -24,12 +24,6 @@ The **dirbrute.py** script is a command-line tool designed to perform directory 
     cd dirbrute
     ```
 
-3. Install the required dependencies:
-
-    ```bash
-    pip install -r requirements.txt
-    ```
-
 ## Usage
 
 ```bash
