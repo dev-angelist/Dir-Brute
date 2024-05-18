@@ -21,7 +21,7 @@ The **dirbrute.py** script is a command-line tool designed to perform directory 
 2. Navigate to the directory:
 
     ```bash
-    cd dirbrute
+    cd Dir-Brute
     ```
 
 ## Usage
