@@ -79,6 +79,6 @@ It is your responsibility to comply with all applicable laws and regulations in 
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
+This project is licensed under the MIT License - see the [licence](https://github.com/dev-angelist/Dir-Brute/blob/main/LICENSE) file for details.
 
 --- 
